@@ -54,44 +54,59 @@ h1 span{
     justify-content: center;
 
 }
+.col-md img{
+    max-width: 300px;
+    height: auto;
+    max-height: 450px;
+    float: right;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
 .wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.us img{
-    max-width: 500px;
-    height: auto;
-    max-height: 350px;
-    float: right;
+.col-md img{
+    max-width: 600px;
+    max-height: 800px;
+    float: left;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 5px;
 }
-.About-us{
+.col-md{
     color: black;
 }
 
-.About-us h2{
+.col-md h2{
     font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.About-us h3{
-    font-size: 40px;
+.col-md h3{
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.About-us h4{
-    font-size: 40px;
+.col-md h4{
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.About-us p{
+.col-md p{
     font-size: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
