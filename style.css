@@ -110,3 +110,51 @@ h1 span{
     align-items: center;
     justify-content: center;
 }
+col-md img{
+    max-width: 600px;
+    max-height: 800px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.col-md{
+    color: black;
+}
+.col-md h1{
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-md h2{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-md h3{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-md h4{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-md p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
