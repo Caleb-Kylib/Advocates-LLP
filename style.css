@@ -189,3 +189,40 @@ col-md img{
  align-items: center;
  justify-content: center;
 }
+
+.card{
+    box-shadow: 0 0 20px black;
+    width: 80%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background:maroon;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.profile-name{
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.profile-position{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 3px;
+    color: blue;
+}
+
+.profile-body{
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+.profile-image{
+    border-radius: 60%;
+    border: 4px solid white;
+    max-width: 200px;
+}
