@@ -188,6 +188,7 @@ col-md img{
  display: flex;
  align-items: center;
  justify-content: center;
+ margin-bottom: 20px;
 }
 
 .column{
@@ -203,10 +204,31 @@ col-md img{
     max-width: 300px;
     display: flex;
     flex-direction: column;
-    background:maroon;
+    background:#005e9b;
     color: white;
     text-align: center;
     padding: 2em;
+}
+
+.social-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    margin: 0 auto;
+}
+
+.social-link{
+ color: green;
+ opacity: 1;
+ font-size: 1.125rem;
+
+}
+.social-link:hover,
+.social-link:focus {
+    opacity: 1;
 }
 
 .profile-name{
